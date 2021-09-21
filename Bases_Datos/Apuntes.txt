@@ -1,0 +1,2 @@
++Creus que resulta superflúo el concepto de atributo compuesto?
+-No, perque si el multivaluem no hi ha forma de relacionarlos
