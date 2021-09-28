@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+/Programacion/U2_IntroJava/Edison.java/nbproject/private/
+/Programacion/U2_IntroJava/Edison.java/build/
+/Programacion/U2_IntroJava/Edison/nbproject/private/
+/Programacion/U2_IntroJava/Edison/build/
