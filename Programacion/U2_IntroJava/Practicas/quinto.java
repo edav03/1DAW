@@ -13,5 +13,6 @@ public class quinto{
         System.out.println("Área del circulo = " + (Math.PI * Math.pow(r, 2)));
         System.out.println("Volumen de la esfera = " + ((4/3) * Math.PI * Math.pow(r, 3)));
 
+        radio.close();
     }
 }

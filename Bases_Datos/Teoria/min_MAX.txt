@@ -1,0 +1,13 @@
+(min,MAX)
+El min es sitúa s'escriu en minúscula perquè està a l'esquerre.
+El min es sitúa s'escriu en majúscula perquè està a la dreta.
+
+CONNECTIVITAT MITJANÇANT LES PARELLES (min,MAX):
+-El min val = 1 o val = 0. Com si fora true o false.
+-El MAX val = N o val = 1.
+
+Les posibles parelles poden ser:
+(0,1)	/*Les parelles (0,0) o (N,N) no son posibles*/
+(0,N)
+(1,1)
+(1,N)
