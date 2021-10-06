@@ -14,24 +14,11 @@ public class quince {
         y = num2.nextInt();
 
         System.out.print("Introduce el valor de Z: ");
-        z = num3.nextInt();
+        z = num3.nextInt(); 
 
-        if(y > x){
-            if(y > z){
-                System.out.println(y + " es mayor");
-            } 
-            else{
-                System.out.println(z + " es mayor");
-            }
-        } 
-        else{
-            if(x > z){
-                System.out.println(x + " es mayor");
-            } 
-            else{
-                System.out.println(z + " es mayor");
-            }
-        }
+        if(x > y && x > z) {System.out.println (x + " es mayor");}
+        if(y > x && y > z) {System.out.println (y + " es mayor");}
+        if(z > x && z > y) {System.out.println (z + " es mayor");}
 
         num1.close();
         num2.close();
