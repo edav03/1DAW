@@ -1,0 +1,1 @@
+In this exercise we are going to check the size of the same information stored in different representation formats
