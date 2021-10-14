@@ -1,41 +1,17 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class nomenu {
+    int x = -1;
 
     public static void Print(String ss){
         System.out.println(ss);
     }
 
-    public static void important(String args[]){
-        Scanner num = new Scanner(System.in);
-        Scanner dec = new Scanner(System.in);
-        int x;
-        String Menu = 
-        "\nElige el programa que deseas ejecutar" + 
-        "\n1. Escribe un programa que dé los buenos días." +
-        "\n2. Escribe un programa que calcule y muestre el área de un cuadrado de lado igual a 5." +
-        "\n3. Escribe un programa que calcule el área de un cuadrado cuyo lado se introduce por teclado" +
-        "\n4. Escribe un programa que lea dos números, calcule y muestre el valor de sus suma, resta, producto y división." +
-        "\n5. Escribe un programa que toma como dato de entrada un número que corresponde a la longitud de un radio y nos escribe la longitud de la circunferencia, el área del círculo y el volumen de la esfera que corresponden con dicho radio." +
-        "\n6. Escribe un programa que dado el precio de un artículo y el precio de venta real nos muestre el porcentaje de descuento realizado." +
-        "\n7. Escribe un programa que lea un valor correspondiente a una distancia en millas marinas y escriba la distancia en metros. Sabiendo que una milla marina equivale a 1.852 metros." +
-        "\n8. Escribe un programa que pide la edad por teclado y nos muestra el mensaje de “Eres mayor de edad” solo si lo somos." +
-        "\n9. Escribe un programa que pide la edad por teclado y nos muestra el mensaje de “eres mayor de edad” o el mensaje de “eres menor de edad”." +
-        "\n10. Escribe un programa que lee dos números, calcula y muestra el valor de su suma, resta, producto y división. (Ten en cuenta la división por cero)." +
-        "\n11. Escribe un programa que lee 2 números y muestra el mayor." +
-        "\n12. Escribe un programa que lee un número y me dice si es positivo o negativo, consideraremos el cero como positivo." +
-        "\n13. Escribe un programa que lee dos números y los visualiza en orden ascendente." +
-        "\n14. Escribe un programa que lee dos números y nos dice cuál es el mayor o si son iguales." +
-        "\n15. Escribe un programa que lea tres números distintos y nos diga cuál es el mayor. " +
-        "\n16. Escribe un programa que lea una calificación numérica entre 0 y 10 y la transforma en calificación alfabética, escribiendo el resultado.\n\t• de 0 a <3 Muy Deficiente.\n\t• de 3 a <5 Insuficiente.\n\t• de 5 a <6 Bien.\n\t• de 6 a <9 Notable\n\t• de 9 a 10 Sobresaliente" +
-        "\n17. Escribe un programa que recibe como datos de entrada una hora expresada en horas, minutos y segundos que nos calcula y escribe la hora, minutos y segundos que serán, transcurrido un segundo." +
-        "\n18. Escribe un programa que calcula el salario neto semanal de un trabajador en función del número de horas trabajadas y la tasa de impuestos de acuerdo a las siguientes hipótesis:\n\t• Las primeras 35 horas se pagan a tarifa normal.\n\t• Las horas que pasen de 35 se pagan a 1,5 veces la tarifa normal.\n\t• Las tasas de impuestos son:\n\t• Los primeros 500 euros son libres de impuestos.\n\t• Los siguientes 400 tienen un 25% de impuestos.\n\t• Los restantes un 45% de impuestos.\nEscribir nombre, salario bruto, tasas y salario neto.";
+    public static void program(int num){
 
-        Print(Menu);
-        x = num.nextInt();
-
-        switch(x){
-            case 1: first();
+        switch(num){
+            case 1: first(); main(null);
             break;
             case 2: second();
             break;
@@ -73,27 +49,47 @@ public class nomenu {
             break;
             default: System.out.println("Elije un numero de la tabla, porfavor");
         }
-
-        // System.out.print("¿Quieres continuar? (y/n)");
-        // char decision = dec.next().charAt(0);
-
-        // if(decision = "y"){
-        //     main(args);
-        // }
-        // else{}
-
-        num.close();
     }
 
     public static void main(String args[]){
-        do{
+        Scanner num = new Scanner(System.in);
+        int x = -1;
+        String Menu = 
+        "\nElige el programa que deseas ejecutar o pulsa 0 para salir;" + 
+        "\n1. Escribe un programa que dé los buenos días." +
+        "\n2. Escribe un programa que calcule y muestre el área de un cuadrado de lado igual a 5." +
+        "\n3. Escribe un programa que calcule el área de un cuadrado cuyo lado se introduce por teclado" +
+        "\n4. Escribe un programa que lea dos números, calcule y muestre el valor de sus suma, resta, producto y división." +
+        "\n5. Escribe un programa que toma como dato de entrada un número que corresponde a la longitud de un radio y nos escribe la longitud de la circunferencia, el área del círculo y el volumen de la esfera que corresponden con dicho radio." +
+        "\n6. Escribe un programa que dado el precio de un artículo y el precio de venta real nos muestre el porcentaje de descuento realizado." +
+        "\n7. Escribe un programa que lea un valor correspondiente a una distancia en millas marinas y escriba la distancia en metros. Sabiendo que una milla marina equivale a 1.852 metros." +
+        "\n8. Escribe un programa que pide la edad por teclado y nos muestra el mensaje de “Eres mayor de edad” solo si lo somos." +
+        "\n9. Escribe un programa que pide la edad por teclado y nos muestra el mensaje de “eres mayor de edad” o el mensaje de “eres menor de edad”." +
+        "\n10. Escribe un programa que lee dos números, calcula y muestra el valor de su suma, resta, producto y división. (Ten en cuenta la división por cero)." +
+        "\n11. Escribe un programa que lee 2 números y muestra el mayor." +
+        "\n12. Escribe un programa que lee un número y me dice si es positivo o negativo, consideraremos el cero como positivo." +
+        "\n13. Escribe un programa que lee dos números y los visualiza en orden ascendente." +
+        "\n14. Escribe un programa que lee dos números y nos dice cuál es el mayor o si son iguales." +
+        "\n15. Escribe un programa que lea tres números distintos y nos diga cuál es el mayor. " +
+        "\n16. Escribe un programa que lea una calificación numérica entre 0 y 10 y la transforma en calificación alfabética, escribiendo el resultado.\n\t• de 0 a <3 Muy Deficiente.\n\t• de 3 a <5 Insuficiente.\n\t• de 5 a <6 Bien.\n\t• de 6 a <9 Notable\n\t• de 9 a 10 Sobresaliente" +
+        "\n17. Escribe un programa que recibe como datos de entrada una hora expresada en horas, minutos y segundos que nos calcula y escribe la hora, minutos y segundos que serán, transcurrido un segundo." +
+        "\n18. Escribe un programa que calcula el salario neto semanal de un trabajador en función del número de horas trabajadas y la tasa de impuestos de acuerdo a las siguientes hipótesis:\n\t• Las primeras 35 horas se pagan a tarifa normal.\n\t• Las horas que pasen de 35 se pagan a 1,5 veces la tarifa normal.\n\t• Las tasas de impuestos son:\n\t• Los primeros 500 euros son libres de impuestos.\n\t• Los siguientes 400 tienen un 25% de impuestos.\n\t• Los restantes un 45% de impuestos.\nEscribir nombre, salario bruto, tasas y salario neto.";
 
+        Print(Menu);
+        x = num.nextInt();
+
+        while (x != 0){
+
+        program(x);
+        num.close();
+        x=-1;
         }
 
     }
 
     public static void first(){
         System.out.println("Buenos días");
+        TimeUnit.SECONDS.slep(5);
     }
 
     public static void second(){
@@ -111,7 +107,7 @@ public class nomenu {
 
         System.out.println ("Área = " + lado * lado);
 
-        entrada.close();
+        // entrada.close();
     }
 
     public static void fourth(){

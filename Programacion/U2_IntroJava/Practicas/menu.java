@@ -8,7 +8,7 @@ public class menu {
 
     public static void main(String args[]){
         Scanner num = new Scanner(System.in);
-        Scanner dec = new Scanner(System.in);
+        // Scanner dec = new Scanner(System.in);
         int x = -1;
         String Menu = 
         "\nElige el programa que deseas ejecutar" + 
