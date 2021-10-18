@@ -1,53 +1,17 @@
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class nomenu {
-    int x = -1;
 
     public static void Print(String ss){
         System.out.println(ss);
     }
 
-    public static void program(int num){
-
-        switch(num){
-            case 1: first(); main(null);
-            break;
-            case 2: second();
-            break;
-            case 3: third();
-            break;
-            case 4: fourth();
-            break;
-            case 5: fifth();
-            break;
-            case 6: sixth();
-            break;
-            case 7: seventh();
-            break;
-            case 8: eighth();
-            break;
-            case 9: ninth();
-            break;
-            case 10: tenth();
-            break;
-            case 11: eleventh();
-            break;
-            case 12: twelveth();
-            break;
-            case 13: thirteenth();
-            break;
-            case 14: fourteenth();
-            break;
-            case 15: fifteenth();
-            break;
-            case 16: sixteenth();
-            break;
-            case 17: seventeenth();
-            break;
-            case 18: eighteenth();
-            break;
-            default: System.out.println("Elije un numero de la tabla, porfavor");
+    public static void wait(int ms){
+        try{
+            Thread.sleep(ms);
+        }
+        catch(InterruptedException ex){
+            Thread.currentThread().interrupt();
         }
     }
 
@@ -78,24 +42,77 @@ public class nomenu {
         Print(Menu);
         x = num.nextInt();
 
+        // Creacion de loop para evitar el fin del programa
+
         while (x != 0){
 
         program(x);
-        num.close();
-        x=-1;
+
         }
 
     }
 
+    // Se llama a los diferentes programas, segun la elección del usuario
+
+    public static void program(int num){
+
+        switch(num){
+            case 1: first(); main(null);
+            break;
+            case 2: second(); main(null);
+            break;
+            case 3: third(); main(null);
+            break;
+            case 4: fourth(); main(null);
+            break;
+            case 5: fifth(); main(null);
+            break;
+            case 6: sixth(); main(null);
+            break;
+            case 7: seventh(); main(null);
+            break;
+            case 8: eighth(); main(null);
+            break;
+            case 9: ninth(); main(null);
+            break;
+            case 10: tenth(); main(null);
+            break;
+            case 11: eleventh(); main(null);
+            break;
+            case 12: twelveth(); main(null);
+            break;
+            case 13: thirteenth(); main(null);
+            break;
+            case 14: fourteenth(); main(null);
+            break;
+            case 15: fifteenth(); main(null);
+            break;
+            case 16: sixteenth(); main(null);
+            break;
+            case 17: seventeenth(); main(null);
+            break;
+            case 18: eighteenth(); main(null);
+            break;
+            default: System.out.println("Elije un numero de la tabla, porfavor"); main(null);
+            break;
+        }
+    }
+
+    // Creacion de los programas desde el 1 hasta el 18
+
     public static void first(){
+
         System.out.println("Buenos días");
-        TimeUnit.SECONDS.slep(5);
+
+        wait(2000);
     }
 
     public static void second(){
         int lado = 5;
         
         System.out.println ("Área = " + lado * lado);
+
+        wait(2000);
     }
 
     public static void third(){
@@ -107,7 +124,8 @@ public class nomenu {
 
         System.out.println ("Área = " + lado * lado);
 
-        // entrada.close();
+        wait(2000);
+
     }
 
     public static void fourth(){
@@ -126,8 +144,7 @@ public class nomenu {
         System.out.println(x + " * " + y + " = " + (x*y));
         System.out.println(x + " / " + y + " = " + (x/y));
 
-        primer.close();
-        segon.close();
+        wait(2000);
     }
 
     public static void fifth(){
@@ -141,7 +158,7 @@ public class nomenu {
         System.out.println("Área del circulo = " + (Math.PI * Math.pow(r, 2)));
         System.out.println("Volumen de la esfera = " + ((4/3) * Math.PI * Math.pow(r, 3)));
 
-        radio.close();
+        wait(2000);
     }
 
     public static void sixth(){
@@ -162,8 +179,7 @@ public class nomenu {
 
         System.out.println("Porcentaje descontado = " + pordesc + "%");
 
-        article.close();
-        venda.close();
+        wait(2000);
     }
 
     public static void seventh(){
@@ -175,7 +191,7 @@ public class nomenu {
 
         System.out.println("Metros = " + (x * 1852));
 
-        dato.close();
+        wait(2000);
     }
 
     public static void eighth(){
@@ -190,7 +206,7 @@ public class nomenu {
         }
         else{}
 
-        años.close();
+        wait(2000);
     }
 
     public static void ninth(){
@@ -207,7 +223,7 @@ public class nomenu {
             System.out.println("Eres menor de edad");
         }
 
-        años.close();
+        wait(2000);
     }
 
     public static void tenth(){
@@ -229,8 +245,8 @@ public class nomenu {
         System.out.println(x + " / " + y + " = " + (x/y));
         }
         else{}
-        primer.close();
-        segon.close();
+
+        wait(2000);
     }
 
     public static void eleventh(){
@@ -251,8 +267,7 @@ public class nomenu {
             System.out.println(x);
         }
 
-        primer.close();
-        segon.close();
+        wait(2000);
     }
 
     public static void twelveth(){
@@ -269,7 +284,7 @@ public class nomenu {
             System.out.println(x + " es positiu.");
         }
 
-        num.close();
+        wait(2000);
     }
 
     public static void thirteenth(){
@@ -293,8 +308,7 @@ public class nomenu {
             
         }
 
-        num1.close();
-        num2.close();
+        wait(2000);
     }
     
     public static void fourteenth(){
@@ -322,8 +336,7 @@ public class nomenu {
 
         }
 
-        num1.close();
-        num2.close();
+        wait(2000);
     }
 
     public static void fifteenth(){
@@ -345,9 +358,7 @@ public class nomenu {
         if(y > x && y > z) {System.out.println (y + " es mayor");}
         if(z > x && z > y) {System.out.println (z + " es mayor");}
 
-        num1.close();
-        num2.close();
-        num3.close();
+        wait(2000);
     }
 
     public static void sixteenth(){
@@ -373,7 +384,7 @@ public class nomenu {
             System.out.println("Sobresaliente");
         }
 
-        num.close();
+        wait(2000);
     }
 
     public static void seventeenth(){
@@ -412,9 +423,7 @@ public class nomenu {
         
         System.out.println(hf + ":" + mf + ":" + sf);
 
-        hora.close();
-        minuto.close();
-        segundo.close();
+        wait(2000);
     }
 
     public static void eighteenth(){
@@ -439,21 +448,21 @@ public class nomenu {
 
         if (y < 501){
             salary = y;
-            System.out.println("Salario = " + salary);
+            System.out.println("Salario correspondiente = " + salary + "€");
         }
         else{
             if(y < 901 && y > 500){
                 n = y - 500;
                 salary = 500 + (n * 0.25);
-                System.out.println("Salario correspondiente = " + salary);
+                System.out.println("Salario correspondiente = " + salary + "€");
             }
             else{
                 n = y - 900;
                 salary = 600 + (n * 0.45);
-                System.out.println("Salario correspondiente = " + salary);
+                System.out.println("Salario correspondiente = " + salary + "€");
             }
         }
 
-        hours.close();
+        wait(2000);
     }
 }
