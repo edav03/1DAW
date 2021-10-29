@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nomenu {
+public class menu {
 
     public static void Print(String ss){
         System.out.println(ss);
@@ -46,16 +46,15 @@ public class nomenu {
 
         while (x != 0){
 
-        program(x);
+            program(x);
 
         }
 
     }
 
-    // Se llama a los diferentes programas, segun la elección del usuario
+    // Se llama al programa de la eleccion del usuario
 
     public static void program(int num){
-
         switch(num){
             case 1: first(); main(null);
             break;

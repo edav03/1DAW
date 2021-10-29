@@ -1,3 +1,0 @@
-Base de datos: Pasar a nuestra anotación habitual "Solució EmpresaAzulejera".
-
-Programación: Hacer los diagramas
