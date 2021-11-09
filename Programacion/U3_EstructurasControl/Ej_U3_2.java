@@ -2,12 +2,6 @@ import java.util.Scanner;
 
 public class Ej_U3_2 {
 
-    public static void Print(String men){
-
-        System.out.println(men);
-
-    }
-
     public static void wait(int ms){
 
         try{
@@ -33,7 +27,7 @@ public class Ej_U3_2 {
         "\n22. Realiza un programa que pida un número y construya por pantalla su pirámide.\n";
 
         System.out.println(menu);
-
+        
 
         x = num.nextInt();
 
