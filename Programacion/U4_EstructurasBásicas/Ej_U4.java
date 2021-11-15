@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
+import java.util.Arrays;
 public class Ej_U4 {
 
         public static void wait(int ms)
@@ -73,20 +74,20 @@ public class Ej_U4 {
                 break;
                 case 14: fourteenth();
                 break;
-               // case 15:
-               // break;
-               // case 16:
-               // break;
-               // case 17:
-               // break;
-               // case 18:
-               // break;
-               // case 19:
-               // break;
-               // case 20:
-               // break;
-               // default:
-               // break;
+                case 15: fifteenth();
+                break;
+                case 16: sixteenth();
+                break;
+                case 17: seventeenth();
+                break;
+                case 18: eighteenth();
+                break;
+                case 19: nineteenth();
+                break;
+                case 20: twenty();
+                break;
+                default:
+                break;
             }
         }
     }
@@ -162,7 +163,7 @@ public class Ej_U4 {
                 menor = numeros[i];
             }
         }
-        System.out.println("Mayor: "+ mayor);
+        System.out.println("\nMayor: "+ mayor);
         System.out.println("Menor: "+ menor);
 
         wait(2000);
@@ -261,8 +262,6 @@ public class Ej_U4 {
             System.out.println("Array[" + p + "] = " + primero[p]);
         }
 
-        System.out.println("El tamaño del primer array = " + primero.length);
-
         wait(2000);
         main(null);
     }
@@ -295,21 +294,21 @@ public class Ej_U4 {
 
     public static void eigth(){
         Scanner num = new Scanner(System.in);
-        double r;
-        double array[] = new double[100];
+        float r;
+        float array[] = new float[100];
         int cont = 0;
 
         System.out.print("Valores 'random' generados:\n");
         for(int i = 0; i < array.length; i++){
 
-            array[i] = Math.random();
+            array[i] = (float) Math.random();
 
             System.out.println("Array[" + i + "]= " + array[i]);
 
         }
 
         System.out.print("\nDame un valor entre 0.0 y 1.0: ");
-        r = num.nextDouble();
+        r = num.nextFloat();
 
         for(int n = 0; n < array.length; n++){
             
@@ -402,19 +401,28 @@ public class Ej_U4 {
     public static void eleventh(){
         int primray[] = new int[100];
         int segray[] = new int[100];
+        int cont = 99;
 
         for(int i = 0; i < primray.length; i ++){
             primray[i] = (i + 1);
         }
         for(int i = 0; i < segray.length; i++){
-            for(int n = 100; n < 0; n--){
-                segray[i] = primray[n];
-            }
+            segray[i] = primray[cont];
+            cont--;
         }
 
+        System.out.println("Primer array: ");
         for(int i = 0; i < primray.length; i++){
-            System.out.print("Primer array:" + primray[i] + ", ");
+            System.out.print(primray[i] + ", ");
         }
+
+        System.out.println("\nSegundo array: ");
+        for(int i = 0; i < primray.length; i++){
+            System.out.print(segray[i] + ", ");
+        }
+
+        wait(2000);
+        main(null);
     }
 
     public static void twelveth(){
@@ -428,7 +436,7 @@ public class Ej_U4 {
                 array[i] = (int)(1 + Math.random() * 10);
             }
 
-            System.out.println("a.Mostrar valores" + "\nb.Introducir valor" + "\nc.Salir");
+            System.out.println("\na.Mostrar valores" + "\nb.Introducir valor" + "\nc.Salir");
             choose = let.next().charAt(0);
 
             if(choose == 'a'){
@@ -437,16 +445,16 @@ public class Ej_U4 {
                 }
             }
             else if(choose == 'b'){
-                System.out.println("Introduce un valor: ");
+                System.out.print("Introduce un valor: ");
                 int v = let.nextInt();
 
-                System.out.println("Ahora introduce la posicion en el array: ");
+                System.out.print("\nAhora introduce la posicion en el array: ");
                 int p = let.nextInt();
 
                 for(int i = 0; i < array.length; i++){
                     if(i == p){
                         array[i] = v;
-                        System.out.print("Complete succesfully");
+                        System.out.print("Array[" + p + "]= " + v);
                     }
                 }
             }
@@ -461,7 +469,7 @@ public class Ej_U4 {
         Scanner num = new Scanner(System.in);
         int v, i, n;
 
-        System.out.println("Sequencia aritmetica:\nDame el valor inicial: ");
+        System.out.println("Sequencia aritmetica\nDame el valor inicial: ");
         v = num.nextInt();
 
         System.out.println("Dame el incremento: ");
@@ -476,7 +484,7 @@ public class Ej_U4 {
 
         System.out.println("Array[0] = " + v);
 
-        for(int q = 0; q < array.length; q++){            
+        for(int q = 0; q < (array.length - 1); q++){            
 
             array[q] = v + i;
 
@@ -514,7 +522,7 @@ public class Ej_U4 {
         Scanner num = new Scanner(System.in);
         
 
-        System.out.print("Tamaño del array: ")
+        System.out.print("Tamaño del array: ");
         int n = num.nextInt();
 
         int array[] = new int[n];
@@ -527,6 +535,138 @@ public class Ej_U4 {
 
             System.out.println("Array[" + i + "]= " + array[i]);
         }
+
+        wait(2000);
+        main(null);
+    }
+
+    public static void sixteenth(){
+        int cont=0, othercont=1;
+        int array[] = new int [55];
+        
+        for (int i=1; i <= 10; i++){
+            for (int a = 0; a < i; a++){
+                Arrays.fill(array,cont,othercont,i);
+                cont++;
+                othercont++;
+            }
+        }
+
+        for (int i = 0; i < array.length; i++){
+               System.out.print(array[i] + " ");
+        }
+
+        wait(2000);
+        main(null);
+    }
+
+    public static void seventeenth(){
+        Scanner num = new Scanner(System.in);
+        int array1[] = new int [10];
+        int array2[] = new int [10];
+        int cont=0;
+
+        System.out.println("Dime 20 numeros: ");
+
+        for (int i = 0; i < array1.length; i++){
+            System.out.print("- ");
+            int v = num.nextInt();
+
+            array1[i]=v;
+        }
+
+        for (int i = 0; i < array2.length; i++){
+            System.out.print("- ");
+            int v2 = num.nextInt();
+
+            array1[i]=v2;
+        }
+
+        for (int a = 0; a < array1.length; a++){
+            if (array2[a] == array1[a]){
+                cont++;
+            }  
+        }
+        
+        if(cont > 0){
+            System.out.println("Son iguales");
+        }
+        else{
+            System.out.println("No son iguales");
+        }
+
+        wait(2000);
+        main(null);
+    }
+
+    public static void eighteenth(){
+        int array[] = new int [30];
+
+        for (int i = 0; i < array.length; i++){
+            int aleatorio = (int) (Math.random() * 10);
+            array[i] = aleatorio;
+        }
+
+        Arrays.sort(array);
+
+        for (int a = 0; a < array.length; a++){
+            System.out.print(array[a] + " ");
+        }
+
+        System.out.println();
+
+        wait(2000);
+        main(null);
+        
+    }
+
+    public static void nineteenth(){
+        Scanner num = new Scanner (System.in);
+        int array[] = new int [8];
+        int valor=0;
+
+        for (int i = 0; i < array.length; i++){
+            System.out.print("Dame las 8 puntuaciones (1000 - 2800): ");
+            valor=num.nextInt();
+
+            array[i]=valor;
+        }
+
+        Arrays.sort(array);
+
+        for (int a = 7; a >= 0; a--){
+            System.out.print(array[a]+ " ");
+        }
+
+        System.out.println();
+
+        wait(2000);
+        main(null);
+    }
+
+    public static void twenty(){
+        Scanner num = new Scanner (System.in);
+        int array[] = new int [1000];
+        int repe=0;
+
+        for (int i = 0; i < array.length; i++){
+            int cont = (int) (Math.random() * 99);
+            array[i] = cont;
+        }
+
+        System.out.print("Dame el valor: ");
+        int n = num.nextInt();
+
+        for (int a = 0; a < array.length; a++){
+            if(n == array[a]){
+                repe++;
+            }
+        }
+        
+        System.out.println(n + " se repite "+ repe + " veces");
+
+        wait(2000);
+        main(null);
     }
 
 }
