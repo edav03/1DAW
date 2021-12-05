@@ -37,8 +37,8 @@ public class Ej_U4_b {
                 break;
                 case 4: forth();
                 break;
-                // case 5:
-                // break;
+                case 5: fifth();
+                break;
                 default:
                 break;
             }
@@ -110,37 +110,72 @@ public class Ej_U4_b {
 
     public static void forth(){
         Scanner frase = new Scanner(System.in);
-        int conta = 0, conte = 0, conti = 0, conto = 0, contu = 0;
+        int[] cont = new int[5];
         String or = ",";
 
         System.out.print("Escribe un texto: ");
         while(or != "\n"){
             or = frase.nextLine();
-            char[] statement = or.split(" ");
+            char[] statement = or.toCharArray();
 
             for(int i = 0; i < statement.length; i++){
                 if(statement[i] == 'a'){
-                    conta++;
+                    cont[0]++;
                 }
                 else if(statement[i] == 'e'){
-                    conte++;
+                    cont[1]++;
                 }
                 else if(statement[i] == 'i'){
-                    conti++;
+                    cont[2]++;
                 }
                 else if(statement[i] == 'o'){
-                    conto++;
+                    cont[3]++;
                 }
                 else if(statement[i] == 'u'){
-                    contu++;
+                    cont[4]++;
                 }
             }
 
             or = "\n";
         } 
 
-        System.out.print("Veces 'a': " + conta);
+        System.out.println("Veces 'a': " + cont[0]);
+        System.out.println("Veces 'e': " + cont[1]);
+        System.out.println("Veces 'i': " + cont[2]);
+        System.out.println("Veces 'o': " + cont[3]);
+        System.out.println("Veces 'u': " + cont[4]);
 
+        wait(2000);
+        main(null);
+
+    }
+
+    public static void fifth(){
+        Scanner frase = new Scanner(System.in);
+
+        System.out.print("Escribe una oracion: ");
+        String or = frase.nextLine();
+        or = or.toLowerCase();
+        or = or.replaceAll(" ", "");
+
+        char[] statement = or.toCharArray();
+        char[] statement2 = new char[statement.length];
+        int rest = (statement.length - 1);
+
+        for(int i = 0; i < statement.length; i++){
+            statement2[i] = statement[rest];
+            rest--;
+        }
+
+        if(Arrays.equals(statement, statement2)){
+            System.out.println("Es una palindromo");
+        }
+        else{
+            System.out.println("No es un palindromo");
+        }
+        
+        wait(2000);
+        main(null);
     }
     
 }
