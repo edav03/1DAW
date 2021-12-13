@@ -4,8 +4,7 @@ h2 { font: bold 1.5em verdana, sans-serif; }
 h3 { font: bold 1em verdana, sans-serif; }
 body { text-align: center; }
 #page { width: 960px; margin: 15px auto; text-align: left; }
-#header { background: #FFFBB9; border: 1px solid #999999; padding:
-20px; }
+#header { background: #FFFBB9; border: 1px solid #999999; padding:20px; }
 #nav { background: #CCCCCC; padding: 5px 15px; }
 #nav li { display: inline; list-style: none; padding: 5px; font: bold
 14px verdana, sans-serif; cursor:default;}
