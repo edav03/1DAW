@@ -5,18 +5,17 @@ public class Ej_U5{
     public static void main(String[] args){
         Scanner num = new Scanner(System.in);
 
-        System.out.print("Introduce un numero: ");
-        int n = num.nextInt();
+        System.out.print("Introduce la cantidad sin descuento: ");
+        double n1 = num.nextDouble();
 
-        mult(n);
+        System.out.print("Introduce la cantidad con descuento: ");
+        double n2 = num.nextDouble();
+
+        double result = desc(n1, n2);
+
+        
     }
 
-    public static void mult(int n){
-        int a = n;
-
-        for(int i = 1; i < 11; i++){
-            a = n * i;
-            System.out.println(n + " * " + i + " = " + a);
-        }
+    public static double desc(double n1, double n2){
     }
 }
