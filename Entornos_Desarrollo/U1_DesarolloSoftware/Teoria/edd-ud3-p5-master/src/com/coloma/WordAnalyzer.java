@@ -4,7 +4,7 @@ package com.coloma;
  */
 public class WordAnalyzer
 {
-
+    
     private String word;
 
     /**

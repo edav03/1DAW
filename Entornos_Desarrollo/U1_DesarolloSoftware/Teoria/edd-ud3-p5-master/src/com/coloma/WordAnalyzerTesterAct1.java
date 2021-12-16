@@ -9,8 +9,9 @@ public class WordAnalyzerTesterAct1
     {
         test("aardvark"); // expect: a
         test("roommate"); // expect: o (not m)
+        test("test"); // expect: 0 (the t isn't repeatin)
         test("mate"); // expect: 0 (no duplicate letters)
-        test("test"); // expect: 0 (the t isn't repeating)
+        
     }
 
     static void test(String text)
@@ -24,4 +25,4 @@ public class WordAnalyzerTesterAct1
             System.out.println("First repeated character = " + result);
         }
     }
-}ex
+}
