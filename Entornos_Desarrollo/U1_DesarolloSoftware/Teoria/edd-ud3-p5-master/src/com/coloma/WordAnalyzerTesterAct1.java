@@ -1,5 +1,4 @@
 package com.coloma;
-
 /**
  * Class to test Locate First Repeated Counter Characters
  */
@@ -14,7 +13,7 @@ public class WordAnalyzerTesterAct1
         
     }
 
-    static void test(String text)
+    public static void test(String text)
     {
         WordAnalyzer wa = new WordAnalyzer(text);
         char result = wa.firstRepeatedCharacter();
