@@ -5,68 +5,35 @@ public class Ej_U5{
     public static void main(String[] args){
        Scanner num = new Scanner(System.in);
 
-       System.out.print("Introduce tu numero de DNI: ");
-       int n = num.nextInt();
-       n = n%23;
+       System.out.print("Introduce X: ");
+       int x = num.nextInt();
 
-       char res = dni(n);
+       System.out.print("Introduce Y: ");
+       int y = num.nextInt();
 
-       System.out.println("Tu letra correspondiente al DNI = " + res);
+       System.out.print("Introduce Z: ");
+       int z = num.nextInt();
 
+       boolean res = formula(x, y, z);
+
+       if(res == true){
+            System.out.println("Son iguales");
+       }
+       else{
+           System.out.println("No son iguales");
+       }
     }
 
-    public static char dni(int a){
-        char dev = 'x';
+    public static boolean formula(int x, int y, int z){
+        boolean res =  true;
 
-        switch(a){
-            case 0: dev = 'O';
-            break;
-            case 1: dev = 'R';
-            break;
-            case 2: dev = 'W';
-            break;
-            case 3: dev = 'A';
-            break;
-            case 4: dev = 'G';
-            break;
-            case 5: dev = 'M';
-            break;
-            case 6: dev = 'Y';
-            break;
-            case 7: dev = 'F';
-            break;
-            case 8: dev = 'P';
-            break;
-            case 9: dev = 'D';
-            break;
-            case 10: dev = 'X';
-            break;
-            case 11: dev = 'B';
-            break;
-            case 12: dev = 'N';
-            break;
-            case 13: dev = 'J';
-            break;
-            case 14: dev = 'Z';
-            break;
-            case 15: dev = 'S';
-            break;
-            case 16: dev = 'Q';
-            break;
-            case 17: dev = 'V';
-            break;
-            case 18: dev = 'H';
-            break;
-            case 19: dev = 'L';
-            break;
-            case 20: dev = 'C';
-            break;
-            case 21: dev = 'K';
-            break;
-            case 22: dev = 'E';
-            break;
+        if((Math.pow(x, 2) + Math.pow(y, 2) == Math.pow(z, 2))){
+            res = true;
         }
-        
-        return dev;
+        else{
+            res = false;
+        }
+
+        return res;
     }
 }
