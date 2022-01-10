@@ -5,9 +5,11 @@ public class Ej_U5{
     public static void main(String[] args){
         int n = -1;
 
+           
         while(n != 0){
             n = menu();
 
+            if(n != 0){
             double radio = pideRadio();
 
             switch(n){
@@ -31,13 +33,14 @@ public class Ej_U5{
                 break;
             }
 
+            }
         }
     }
 
     public static int menu(){
         Scanner num = new Scanner(System.in);
         
-        System.out.println("Menú\n0.Salir\n1.Circunferencia\n2.Area\n3.Volumen\n4.Todas");
+        System.out.println("\nMenú\n0.Salir\n1.Circunferencia\n2.Area\n3.Volumen\n4.Todas");
         int x = num.nextInt();
 
         return x;
