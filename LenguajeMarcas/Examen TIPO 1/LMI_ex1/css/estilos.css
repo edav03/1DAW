@@ -1,0 +1,67 @@
+*{ margin: 0px; padding: 0px; }
+
+body{ text-align: center;}
+
+#page{
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  font: bold 2em verdana, comic-sans;
+  color: white;
+}
+
+#header{
+  margin: 16px;
+  padding: 36px;
+  background-color: #880808;
+}
+
+#nav{
+  margin: 16px;
+  padding: 26px;
+  border-top: solid #00FF00;
+  border-bottom: solid #A020F0;
+  border-left: solid #EC5800;
+  border-right: solid #FFFF00;
+  font-size: 4em;
+}
+
+#chistes{
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+#virus{
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+#content{
+  background-image: url("../img/grisbocata.jpg");
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer{
+  background-color: #808080;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font: bold 1.5em verdana;
+  border-top: solid #000000;
+  margin: 16px;
+  padding: 26px;
+}
