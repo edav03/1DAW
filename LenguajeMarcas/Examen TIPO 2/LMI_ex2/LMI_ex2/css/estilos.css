@@ -1,7 +1,6 @@
 *{ margin: 0px; padding: 0px; }
 
 #page{
-  width: 100%;
   text-align: center;
   background-image: url("../img/green.jpg");
   background-repeat: no-repeat;
@@ -29,7 +28,8 @@ img{
 }
 
 #nav{
-  margin: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
   padding: 10px;
   background-color: #8B0000;
 }
@@ -44,6 +44,7 @@ img{
   text-align: center;
   color: white;
   font-size: 1.5em;
+  text-decoration: line-through;
 }
 
 #informatica{
@@ -56,8 +57,17 @@ img{
   text-align: center;
   text-decoration: underline;
   font-size: 1.5em;
+  color: black;
 }
 
 #footer{
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  border-top: solid #000000;
+  border-bottom: solid #000000;
+  border-left: solid #000000;
+  border-right: solid #000000;
 
 }
