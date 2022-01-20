@@ -64,4 +64,7 @@ h1{
   border-top: solid #000000;
   margin: 16px;
   padding: 26px;
+  background-image: url("../img/pc.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
