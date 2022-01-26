@@ -1,14 +1,14 @@
-class Cotxe {
+public class Cotxe {
 
-    String modelo;
-    String color;
-    boolean met;
-    int matricula;
-    String cotxe;
-    int fabricacion;
-    String modalidad;
+    static String modelo;
+    static String color;
+    static boolean met;
+    static int matricula;
+    static String cotxe;
+    static int fabricacion;
+    static String modalidad;
 
-    Cotxe() {
+    static void Cotxe() {
         modelo = "209";
         color = "Red";
         met = false;
@@ -18,8 +18,8 @@ class Cotxe {
         modalidad = "tercers";
     }
 
-    public String mostrarInfo() {
-        return modelo;
+    public static void mostrarInfo() {
+        System.out.println("Modelo: 209 \nColor: Red" + Cotxe();
     }
 
 }
