@@ -1,6 +1,6 @@
 public class Actividad2{
     public static void main(String[] args){
-        Cotxe c1 = new Cotxe();
+        CotxePar c1 = new CotxePar();
 
         c1.mostrarInfo();
     }
