@@ -1,0 +1,16 @@
+body{ text-align: center; }
+
+#principal{
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 50px;
+  border-style: solid;
+  border-image-source: url("bola.png");
+
+<!--
+  outline: 2px dashed #000099;
+  outline-offset: 15px;
+-->
+}

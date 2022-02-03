@@ -1,0 +1,14 @@
+*{ text-align: center; }
+
+#principal{
+  border: 40px;
+  border-style: solid;
+  border-image-source: url("fo_hormigas_210.png");
+  border-image-slice: 70;
+  border-image-repeat: round;
+  text-shadow: 3px 3px 3px rgb(150,150,150);
+}
+
+h1{
+  color: #00FF00;
+}
