@@ -6,17 +6,18 @@ public class ejercicio_b4{
 
         tienda c1 = new tienda();
 
-        System.out.println("Nombre: ");
+        System.out.print("Nombre: ");
          c1.nombre = sc.nextLine();
 
-        System.out.println("Precio: ");
+        System.out.print("Precio: ");
          c1.precio = sc.nextDouble();
 
-        System.out.println("IVA: ");
+        System.out.print("IVA: ");
          c1.iva = sc.nextDouble();
 
-        System.out.println("Cuantos quedan: ");
+        System.out.print("Cuantos quedan: ");
          c1.cuantosQuedan = sc.nextInt();
 
+        c1.cont();
     }
 }
