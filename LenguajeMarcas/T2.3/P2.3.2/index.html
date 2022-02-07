@@ -4,30 +4,32 @@
   <meta charset="utf-8">
   <title>Aprendemos HTML5 y CSS3</title>
   <meta name="description" content="HTML5, CSS3">
-  <meta name="author" content="Àngela Estornell">
-  <link rel="stylesheet" href="estilos.css">
+  <meta name="author" content="Edison Alcocer">
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-	<div id="page">
+	<main id="page">
 
-		<header>
+		<header id = "principal">
 			<h1>Aprendemos HTML5 y CSS3</h1>
-    </header>
-		<nav>
+		</header>
+
+		<nav id = "navegador">
 			<ul>
 				<li id="contenidos">Contenidos</li>
 				<li id="videos"><a href="#">Vídeos</a></li>
 				<li id="contacto"><a href="#">Contacto</a></li>
 			</ul>
-		</nav>
+		</navegador>
 
-		<div id="content">
+		<main id="content">
 
-			<article>
+			<article class="article">
 				<div class="article_header">
-					<img src="../img/html5.png" alt="HTML5">
+					<img src="imgs/html5.png" alt="HTML5">
 					<h2>HTML5</h2>
+				</div>
 				<p>
 					Veremos los nuevos <strong>elementos estructurales</strong>, así como los nuevos elementos existentes para <strong>formularios, audio y vídeo</strong>.
 				</p>
@@ -36,9 +38,9 @@
 				</p>
 			</article>
 
-			<div id="article2" class="article">
+			<article id="article2" class="article">
 				<div class="article_header">
-					<img src="../img/css3.png" alt="CSS3">
+					<img src="imgs/CSS3.png" alt="CSS3">
 					<h2>CSS3</h2>
 				</div>
 				<p>
@@ -47,11 +49,11 @@
 				<p>
 					Con <strong>CSS3</strong> nuestros diseños serán más simples, pero no menos impactantes.
 				</p>
-			</div>
+			</article>
 
-			<div class="article">
+			<article class="article">
 				<div class="article_header">
-					<img src="../img/javascript.png" alt="Javascript">
+					<img src="imgs/javascript.png" alt="Javascript">
 					<h2>Javascript</h2>
 				</div>
 				<p>
@@ -60,16 +62,16 @@
 				<p>
 					Con las nuevas API javascript nuestras manos dejarán de estar atadas.
 				</p>
-			</div>
+			</article>
 
-		</div> <!-- content -->
+		</main> <!-- main2 -->
 
 		<div id="footer">
-			  <p>Àngela Estornell © 2021. HTML5 y CSS3.</p>
+			  <p>Edison Alcocer © 2021. HTML5 y CSS3.</p>
 			  <p>Impartido para: <a href="https://fp.iesmariaenriquez.es/"> IES Maria Enriquez</a></p>
 		</div>
 
-	</div> <!-- page -->
+	</main> <!-- main -->
 
 </body>
 </html>
