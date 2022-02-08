@@ -23,6 +23,12 @@ public class ejercicio_c4{
          cuantosQuedan = sc.nextInt();
 
         c1.datos(nombre, precio, iva, cuantosQuedan);
+        c1.cont();
+
+        c1.setnombre("Ricardo");
+        c1.setprecio(12.4);
+        c1.setiva(35);
+        c1.setcuantosQuedan(-1);
 
         c1.cont();
     }
