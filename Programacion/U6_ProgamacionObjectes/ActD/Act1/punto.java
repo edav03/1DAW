@@ -1,6 +1,6 @@
 public class punto {
 
-    private int x;
+	private int x;
     private int y;
     
     public punto(int x, int y){
@@ -17,17 +17,19 @@ public class punto {
     public void setXY(int x, int y){
         this.x = x;
         this.y = y;
+        System.out.println("Coordenadas despues del set\n X: " + x + "\n Y: " + y);
     }
 
     public void desplaza(int dx, int dy){
         this.x = x + dx;
         this.y = y + dy;
 
-        System.out.println("La distancia es = (" + x + ", " + y + ")");
+        System.out.println("Se desplaza = (" + x + ", " + y + ")");
     }
 
-    // public int distancia(Punto p){
-        
-    // }
+    public double distancia(punto p){
+        double result = Math.sqrt(Math.pow((p.x - x), 2) + Math.pow((p.y - y), 2));
+        return result;
+    }
 
 }
