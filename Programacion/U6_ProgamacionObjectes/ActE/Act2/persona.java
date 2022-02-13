@@ -3,7 +3,8 @@ public class persona {
     private final String dni;
     private String nombre;
     private String apellidos;
-    private static int edad = 18;
+    private int edad;
+    private static final int mayoriaEdad = 18;
     
     public persona(String dni, String nombre, String apellidos, int edad){
         this.dni = dni;
@@ -44,8 +45,8 @@ public class persona {
         System.out.println(nombre + " " + apellidos + " con DNI: " + dni + " tiene " + edad + " años");
     }
 
-    public static final boolean esMayorEdad(){
-        if(edad < 18){
+    public boolean esMayorEdad(){
+        if(edad < mayoriaEdad){
             return false;
         } else{
             return true;
