@@ -62,11 +62,11 @@ public class persona {
                 if(dni.charAt(i) >= '0' && dni.charAt(i) <= '9'){
                     sent = true;
                 } else {
-                    sent = false;
+                    return false;
                 }
             }
 
-            if(sent == true){
+            if(i > dni.length() - 1 && sent == true){
                 Boolean dec = Character.isDigit(dni.charAt(i));
                 if(dec){
                     return true;
