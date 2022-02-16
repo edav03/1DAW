@@ -1,4 +1,4 @@
-public class iva {
+public class tienda {
     private String nombre;
     private double precio;
     private int cuantosQuedan;

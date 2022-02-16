@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Act2",
         "Act1",
-        "Act2"
+        "Act3"
     ]
 }
