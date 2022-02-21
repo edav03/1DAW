@@ -26,11 +26,20 @@ public class CuentaBancaria {
     }
 
     public void setsaldo(double saldoX){
-        if(saldoX > 3000){
-            System.out.println("AVISO: Notificar a hacienda");
+
+        if(this.saldo + saldoX < -50){
+            System.out.println("Accion imposible");
+        }else{
+            this.saldo += saldoX;
+
+            if(saldoX > 3000){
+                System.out.println("AVISO: Notificar a hacienda");
+            }
+            if(this.saldo < 0){
+                System.out.println("AVISO: Saldo negativo");
+            }
         }
 
-        this.saldo += saldoX;
     }
 
 }
