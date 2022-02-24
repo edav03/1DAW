@@ -1,0 +1,34 @@
+*{text-align: center;}
+
+#principal{
+    border: 2px solid darkorange;
+    width: 90%;
+    padding: 10px;
+}
+
+#caja1{
+    display: inline-block;
+    border: 2px solid purple;
+    width: 32%;
+}
+
+#caja2{
+    display: inline-block;
+    border: 2px solid purple;
+    width: 32%;
+}
+
+#caja3{
+    display: inline-block;
+    border: 2px solid purple;
+    width: 32%;
+    position: fixed;
+    top: 500px;
+    bottom: 200px;
+    right: 20px;
+}
+
+#caja4{
+    border: 2px solid blue;
+    margin: 3px;
+}
