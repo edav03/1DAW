@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+header {
+  background-color: #bbb;
+  padding: 1em;
+  display: flex;
+}
+
+#dtercero{
+  flex-grow: 4;
+}
+
+header div {
+  background-color: burlywood;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+
+footer {
+  background-color: cadetblue;
+  height: 200px;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+footer div {
+  background-color: burlywood;
+  border: 1px solid black;
+  height: 150px;
+}

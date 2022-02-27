@@ -13,6 +13,7 @@ header {
   justify-content: center;
   height: 400px;
   padding: 1rem;
+  display: flex;
 }
 
 header div {
@@ -28,6 +29,9 @@ main {
   background-color: #bbb;
   height: 400px;
   margin-top: 50px;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main div {
@@ -36,4 +40,5 @@ main div {
   height: 50px;
   padding: 1em;
   width: 30%;
+  margin: 1em;
 }
