@@ -1,7 +1,7 @@
 public class Producto {
 
-    public String nombre;
-    public int cantidad;
+    private String nombre;
+    private int cantidad;
 
     public Producto(String nombre, int cantidad){
         this.nombre = nombre;
