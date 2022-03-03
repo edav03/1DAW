@@ -17,10 +17,21 @@ public class ejercicio_1{
         lista.add(p4);
         lista.add(p5);
 
-        for(Iterator it = lista.iterator(); it.hasNext();){
-            Producto p = (Producto)it.next();
+        for(Iterator n = lista.iterator(); n.hasNext();){
+            Producto p = (Producto)n.next();
             System.out.println(p.getNombre() + " : " + p.getCantidad());
         }
+
+        lista.remove(2);
+        lista.remove(3);
+
+        System.out.println("\nLista tras eliminar puesto 2 i 4");
+        for(Iterator n = lista.iterator(); n.hasNext();){
+            Producto p = (Producto)n.next();
+            System.out.println(p.getNombre() + " : " + p.getCantidad());
+        }
+
+        lista.clear();
 
     }
 }
