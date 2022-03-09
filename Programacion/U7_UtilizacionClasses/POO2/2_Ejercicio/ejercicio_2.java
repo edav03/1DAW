@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class ejercicio_2 {
     public static void main(String[] args){
@@ -10,6 +11,14 @@ public class ejercicio_2 {
         astros luna = new astros("7,349 × 10^22 kg", "3.474,8 km", "27.32 días", "28 días", "384.400 km");
         astros io = new astros("8,94×1022 kg", "3.643,2 km", "1d 18h 27,6m", "1 d 18 h 27,6 min", "421.800 km");
 
+        ArrayList lista = new ArrayList();
+
+        lista.add(tierra);
+        lista.add(marte);
+        lista.add(saturno);
+        lista.add(luna);
+        lista.add(io);
+
         String menu =
         "Elige el Astro:" +
         "\n1. Tierra" +
@@ -20,6 +29,19 @@ public class ejercicio_2 {
 
         System.out.println(menu);
         int n = sc.nextInt();
+
+        switch(n){
+            case 1: System.out.println(lista.get(1));
+            break;
+            case 2: System.out.println(lista.get(2));
+            break;
+            case 3: System.out.println(lista.get(3));
+            break;
+            case 4: System.out.println(lista.get(4));
+            break;
+            case 5: System.out.println(lista.get(5));
+            break;
+        }
 
     }
     
