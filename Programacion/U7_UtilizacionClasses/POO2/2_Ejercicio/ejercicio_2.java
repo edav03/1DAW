@@ -5,11 +5,11 @@ public class ejercicio_2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        astros tierra = new astros("5,972 × 10^24 kg", "12.742 km", "24 horas", "365 dias", "1 UA");
-        astros marte = new astros("6,39 × 10^23 kg", "6.779 km", "25 horas", "687 dias", "1,524 UA");
-        astros saturno = new astros("5,683 × 10^26 kg", "116.460 km", "10 horas 42 minutos", "29 años y 167 días", "9,58 UA");
-        astros luna = new astros("7,349 × 10^22 kg", "3.474,8 km", "27.32 días", "28 días", "384.400 km");
-        astros io = new astros("8,94×1022 kg", "3.643,2 km", "1d 18h 27,6m", "1 d 18 h 27,6 min", "421.800 km");
+        principal tierra = new principal("5,972 × 10^24 kg", "12.742 km", "24 horas", "365 dias", "1 UA");
+        principal marte = new principal("6,39 × 10^23 kg", "6.779 km", "25 horas", "687 dias", "1,524 UA");
+        principal saturno = new principal("5,683 × 10^26 kg", "116.460 km", "10 horas 42 minutos", "29 años y 167 días", "9,58 UA");
+        principal luna = new principal("7,349 × 10^22 kg", "3.474,8 km", "27.32 días", "28 días", "384.400 km");
+        principal io = new principal("8,94×1022 kg", "3.643,2 km", "1d 18h 27,6m", "1 d 18 h 27,6 min", "421.800 km");
 
         ArrayList lista = new ArrayList();
 
