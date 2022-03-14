@@ -62,6 +62,65 @@ public class inventario{
                     System.out.println("===============");
                 }
             break;
+            case 4:
+
+                String tipo;
+                
+                System.out.println("===============\n Tipo de animal a insertar:\n 1.Perro\n 2.Gato\n 3.Loro\n 4.Canario");
+                int d1 = sc.nextInt();
+
+                System.out.println("Nombre: ");
+                String nombre = sc.next();
+
+                System.out.println("Edad: ");
+                String edad = sc.next();
+
+                System.out.println("Estado (vivo o muerto): ");
+                String estado = sc.next();
+
+                System.out.println("Fecha de nacimiento: ");
+                String nacim = sc.next();
+
+                if(d1 == 1){
+                    tipo = "Perro";
+                    mascotas m = new perro(nombre, edad + " años", estado, nacim, tipo);
+                }else if(d1 == 2){
+                    tipo = "Gato";
+                    mascotas m = new gato(nombre, edad + " años", estado, nacim, tipo);
+                }else if(d1 == 3){
+                    tipo = "Loro";
+                    mascotas m = new loro(nombre, edad + " años", estado, nacim, tipo);
+                }else{
+                    tipo = "Canario";
+                    mascotas m = new canario(nombre, edad + " años", estado, nacim, tipo);
+                }
+            break;
+            case 5:
+                int cont = 1;
+
+                System.out.println("Que animal quieres eliminar?\n===============");
+                while(it.hasNext()){
+                    System.out.println(cont);
+                    mascotas p = (mascotas)it.next();
+                    p.mostrarDatos();
+                    System.out.println("===============");
+                    cont += 1;
+                }
+                int p = sc.nextInt();
+
+                if(p == 1){
+                    lista.remove(p1);
+                }else if(p == 2){
+                    lista.remove(g1);
+                }else if(p == 3){
+                    lista.remove(l1);
+                }else{
+                    lista.remove(c1);
+                }
+            break;
+            case 6:
+                lista.clear();
+            break;
         }
 
     }
