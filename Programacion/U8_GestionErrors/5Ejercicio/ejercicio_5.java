@@ -7,7 +7,7 @@ public class ejercicio_5 {
 
         try {
             for(int i = 0; i < 11; i++){
-                System.out.println("Introduce un numero: ");
+                System.out.print("Introduce un numero: ");
                 x = sc.nextInt();
 
                 imprimePositivo(x);
@@ -15,10 +15,10 @@ public class ejercicio_5 {
             }
         }
         catch (ExcepcionP e) {
-            System.out.println(x + " menor de 0");
+            System.out.println("\n" + x + " menor de 0");
         }
         catch (ExcepcionN n) {
-            System.out.println(x + " mayor o igual a 0");
+            System.out.println("\n" + x + " mayor o igual a 0");
         }
     }
 

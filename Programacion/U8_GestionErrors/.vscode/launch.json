@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ejercicio_6",
+            "request": "launch",
+            "mainClass": "ejercicio_6",
+            "projectName": "U8_GestionErrors_e91917c"
+        },
+        {
+            "type": "java",
             "name": "Launch ejercicio_5",
             "request": "launch",
             "mainClass": "ejercicio_5",
