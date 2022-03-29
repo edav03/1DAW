@@ -1,7 +1,7 @@
-public class excepNombre extends Exception{
+public class excepNombre2 extends Exception{
     private String nombre;
 
-    excepNombre(String nombre){
+    excepNombre2(String nombre){
         this.nombre = nombre;
     }
 

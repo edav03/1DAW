@@ -1,7 +1,7 @@
-public class excepEdad extends Exception{
+public class excepEdad2 extends Exception{
     private int edad;
 
-    excepEdad(int edad){
+    excepEdad2(int edad){
         this.edad = edad;
     }
 

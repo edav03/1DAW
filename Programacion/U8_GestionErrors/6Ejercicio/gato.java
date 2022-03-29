@@ -11,10 +11,10 @@ public class gato {
             longEdad(edad);
         }
         catch (excepNombre e) {
-            System.err.println(e.toString());
+            System.out.println(e.toString());
         }
         catch (excepEdad d){
-            System.err.println(d.toString());
+            System.out.println(d.toString());
         }
         
     }
