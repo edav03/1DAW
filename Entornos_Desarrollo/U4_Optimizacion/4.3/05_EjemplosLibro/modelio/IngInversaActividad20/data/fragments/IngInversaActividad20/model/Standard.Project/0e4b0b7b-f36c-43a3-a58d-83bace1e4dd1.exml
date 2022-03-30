@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IngInversaActividad20" version="4">
+  <OBJECT>
+    <ID name="IngInversaActividad20" mc="Standard.Project" uid="0e4b0b7b-f36c-43a3-a58d-83bace1e4dd1"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[IngInversaActividad20]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="inginversaactividad20" mc="Standard.Package" uid="d0b67386-53e9-4da5-b3d0-523fbf0e2aad"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="IngInversaActividad20" mc="Infrastructure.DiagramSet" uid="d55ee2c5-31f8-4e15-b4d3-c7297351ff0e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

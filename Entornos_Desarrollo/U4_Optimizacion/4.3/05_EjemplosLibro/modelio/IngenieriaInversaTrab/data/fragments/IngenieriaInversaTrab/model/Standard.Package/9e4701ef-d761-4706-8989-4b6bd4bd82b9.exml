@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ingenieriainversatrab" version="4">
+  <OBJECT>
+    <ID name="ingenieriainversatrab" mc="Standard.Package" uid="9e4701ef-d761-4706-8989-4b6bd4bd82b9"/>
+    <PID name="IngenieriaInversaTrab" mc="Standard.Project" uid="a31bd77b-bf08-4a86-9120-81eaeaa82285"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ingenieriainversatrab]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="java" mc="Standard.Package" uid="361ff6d9-6556-40d9-acc0-bdac4d9319b7"/>
+        <COMPID name="principal" mc="Standard.Package" uid="a01b131f-97b8-473e-9299-9fb95d706b58"/>
+        <COMPID name="operaciones" mc="Standard.Package" uid="99ec2ff9-4040-4320-97c9-fe21c448e5a1"/>
+        <COMPID name="datos" mc="Standard.Package" uid="11fe8d5e-2a34-4d43-bd86-31b077e50e06"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Class diagram" mc="Standard.ClassDiagram" uid="24212a30-e166-47ee-9612-ff1b55bff671"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

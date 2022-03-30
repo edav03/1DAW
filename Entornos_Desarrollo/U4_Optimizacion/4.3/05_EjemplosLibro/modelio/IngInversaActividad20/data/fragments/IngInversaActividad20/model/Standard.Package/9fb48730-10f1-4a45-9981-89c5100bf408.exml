@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operaciones" version="4">
+  <OBJECT>
+    <ID name="operaciones" mc="Standard.Package" uid="9fb48730-10f1-4a45-9981-89c5100bf408"/>
+    <PID name="inginversaactividad20" mc="Standard.Package" uid="d0b67386-53e9-4da5-b3d0-523fbf0e2aad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operaciones]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="operacionesPiezas" mc="Standard.Class" uid="e2012ae0-52f9-43ff-b0cb-33f38c14e89b"/>
+        <COMPID name="operacionesProveedores" mc="Standard.Class" uid="7c78d7ea-d08b-45e1-a52b-c921a21029d3"/>
+        <COMPID name="operacionesProyectos" mc="Standard.Class" uid="601ae902-457a-4e86-854c-157f0e1add2c"/>
+        <COMPID name="operacionesSuministros" mc="Standard.Class" uid="08f7ef84-7b89-4984-82a0-61510a3adcd3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

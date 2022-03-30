@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datos" version="4">
+  <OBJECT>
+    <ID name="datos" mc="Standard.Package" uid="9f9f0328-d216-4a02-a1ef-c07f07ef26eb"/>
+    <PID name="inginversaactividad20" mc="Standard.Package" uid="d0b67386-53e9-4da5-b3d0-523fbf0e2aad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Gestion" mc="Standard.Class" uid="be46a7fc-1919-4ddb-997f-bc2726d55c03"/>
+        <COMPID name="GestionId" mc="Standard.Class" uid="ad3ea414-54fe-4632-b4fa-cbda76e193d1"/>
+        <COMPID name="Piezas" mc="Standard.Class" uid="0be227a8-b936-444d-80e8-8591366a5fff"/>
+        <COMPID name="Proveedores" mc="Standard.Class" uid="d42226a6-f9b5-4793-a9b3-181a4b4e0b7d"/>
+        <COMPID name="Proyectos" mc="Standard.Class" uid="096cc42d-64e0-475b-9f70-ff4d85cf748f"/>
+        <COMPID name="Zonas" mc="Standard.Class" uid="40f1b4b1-0c3f-4bc3-a7c3-b72e6a1d7c44"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

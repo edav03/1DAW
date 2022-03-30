@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datos" version="4">
+  <OBJECT>
+    <ID name="datos" mc="Standard.Package" uid="11fe8d5e-2a34-4d43-bd86-31b077e50e06"/>
+    <PID name="ingenieriainversatrab" mc="Standard.Package" uid="9e4701ef-d761-4706-8989-4b6bd4bd82b9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Trabajador" mc="Standard.Class" uid="db535659-c74a-400e-8bc1-d640d0689115"/>
+        <COMPID name="TrabajadorTipo1" mc="Standard.Class" uid="eb444ee7-4237-4940-bfec-b4dc54d9afc2"/>
+        <COMPID name="TrabajadorTipo2" mc="Standard.Class" uid="2abc0230-1470-4239-81e7-89e74ddd815c"/>
+        <COMPID name="TrabajadorTipo3" mc="Standard.Class" uid="6ee0fc9b-664c-40e2-86d2-4d9d9584ed20"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

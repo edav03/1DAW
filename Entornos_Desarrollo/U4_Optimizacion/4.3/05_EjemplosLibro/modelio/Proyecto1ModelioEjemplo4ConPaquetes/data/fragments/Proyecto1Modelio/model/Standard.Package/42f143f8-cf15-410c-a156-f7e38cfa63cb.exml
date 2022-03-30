@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operaciones" version="4">
+  <OBJECT>
+    <ID name="operaciones" mc="Standard.Package" uid="42f143f8-cf15-410c-a156-f7e38cfa63cb"/>
+    <PID name="proyecto1modelio" mc="Standard.Package" uid="dc5cd792-8973-43b4-b6b6-b9a8e73df170"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operaciones]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="d1e08a1a-b091-4857-92ec-25ab34d30be5"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="datos" mc="Standard.Package" uid="60b8e666-3b47-4452-a468-9f1ef6625d7f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Operaciones" mc="Standard.Interface" uid="160cf102-c1f6-4bc8-9c14-687391731d92"/>
+        <COMPID name="tratamientoTrabajadores " mc="Standard.Class" uid="b31d9d6b-b818-435b-a86e-db344c06c842"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

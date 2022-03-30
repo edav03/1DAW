@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="proyecto1modelio" version="4">
+  <OBJECT>
+    <ID name="proyecto1modelio" mc="Standard.Package" uid="dc5cd792-8973-43b4-b6b6-b9a8e73df170"/>
+    <PID name="Proyecto1Modelio" mc="Standard.Project" uid="7e760ce2-7c2c-4bac-957c-038a9a42d266"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[proyecto1modelio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Departamento" mc="Standard.Class" uid="828f9e1d-2945-49f6-be9f-4a47a9693a64"/>
+        <COMPID name="Trabajador" mc="Standard.Class" uid="a6fdc6df-56ea-496a-84a1-238dbde461fa"/>
+        <COMPID name="TrabTipo1" mc="Standard.Class" uid="616d07ae-817b-4fd5-8020-f0ffb3a70f5f"/>
+        <COMPID name="TrabTipo2" mc="Standard.Class" uid="63180f39-dde4-4dc3-bcd5-5cbd2246e9ea"/>
+        <COMPID name="Operaciones" mc="Standard.Interface" uid="160cf102-c1f6-4bc8-9c14-687391731d92"/>
+        <COMPID name="tratamientoTrabajadores " mc="Standard.Class" uid="b31d9d6b-b818-435b-a86e-db344c06c842"/>
+        <COMPID name="Main" mc="Standard.Class" uid="5883affd-d7f3-4212-8f30-7f0a3f0507a1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DiagramaClases" mc="Standard.ClassDiagram" uid="6d4b93c3-19c7-4f9d-9350-2423f86a0be3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

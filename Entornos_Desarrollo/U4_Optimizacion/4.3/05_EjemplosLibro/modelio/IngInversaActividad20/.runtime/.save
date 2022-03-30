@@ -1,0 +1,6 @@
+#Fri May 01 21:20:14 CEST 2020
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.diagram.editor.OpenedDiagrams0='inginversaactividad20 Class diagram' {3fc48dce-7a1e-42a1-b615-585cfc79f982} Standard.ClassDiagram

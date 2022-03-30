@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java" version="4">
+  <OBJECT>
+    <ID name="java" mc="Standard.Package" uid="1a3ddf06-cf1d-4ac7-8e7e-197877ab6840"/>
+    <PID name="inginversaactividad20" mc="Standard.Package" uid="d0b67386-53e9-4da5-b3d0-523fbf0e2aad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="awt" mc="Standard.Package" uid="0da54423-f863-407b-92a5-23acc64678e1"/>
+        <COMPID name="util" mc="Standard.Package" uid="0071bf9b-cca2-480e-84ae-6d396146d11c"/>
+        <COMPID name="lang" mc="Standard.Package" uid="186b83fb-097f-41c5-b355-fdc2947ca2b5"/>
+        <COMPID name="io" mc="Standard.Package" uid="de0482fc-c585-497c-8d9e-13b06b76f1fb"/>
+        <COMPID name="math" mc="Standard.Package" uid="1e096d17-857c-4685-bee5-6511395af79f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="55ed90a9-cdc8-48a4-a781-e48f6c543f02"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Definition">
+              <FOREIGNID name="JavaExtern" mc="Infrastructure.TagType" uid="003800a8-0000-0197-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Class Structure" version="4">
+  <OBJECT>
+    <ID name="Class Structure" mc="Infrastructure.DiagramSet" uid="2162a42c-12ff-45f8-87d8-70ed7c3d17ba"/>
+    <PID name="Auto Diagrams" mc="Infrastructure.DiagramSet" uid="f8d2381e-55ea-41d0-b7b6-c486f9a9106f"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Class Structure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="ReferencedDiagram">
+        <ID name="tratamientoTrabajadores  (structure_autodiagram)" mc="Standard.ClassDiagram" uid="44cdae12-f63c-4fb2-ab13-ff60de0851b3"/>
+        <ID name="Operaciones (structure_autodiagram)" mc="Standard.ClassDiagram" uid="4c0d9863-7417-4745-b545-8ec1bc0c9aed"/>
+        <ID name="Trabajador (structure_autodiagram)" mc="Standard.ClassDiagram" uid="954a2fe2-16c2-41d4-9377-038d5ec37c62"/>
+        <ID name="TrabTipo2 (structure_autodiagram)" mc="Standard.ClassDiagram" uid="62f145b7-6919-43ff-bc7a-f4c1ed4f6f5a"/>
+        <ID name="Departamento (structure_autodiagram)" mc="Standard.ClassDiagram" uid="c1ee8d3b-a207-49ea-9a1b-97259a17b642"/>
+        <ID name="TrabTipo1 (structure_autodiagram)" mc="Standard.ClassDiagram" uid="232d888e-cbc3-46cf-ade9-4e3e28f1b9c3"/>
+        <ID name="Main (structure_autodiagram)" mc="Standard.ClassDiagram" uid="788b4726-49c9-4d07-8058-56a58ee29315"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

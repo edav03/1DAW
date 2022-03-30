@@ -1,0 +1,6 @@
+#Fri Apr 24 18:27:10 CEST 2020
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///C\:/Users/mjesus/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.diagram.editor.OpenedDiagrams0='DiagramaClases' {6d4b93c3-19c7-4f9d-9350-2423f86a0be3} Standard.ClassDiagram

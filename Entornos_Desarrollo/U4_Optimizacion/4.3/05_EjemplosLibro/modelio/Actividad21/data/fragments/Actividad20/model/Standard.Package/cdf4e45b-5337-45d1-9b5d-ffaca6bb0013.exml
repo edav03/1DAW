@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actividad20" version="4">
+  <OBJECT>
+    <ID name="actividad20" mc="Standard.Package" uid="cdf4e45b-5337-45d1-9b5d-ffaca6bb0013"/>
+    <PID name="Actividad20" mc="Standard.Project" uid="64ab6a66-a348-41e0-aa0c-34c32ac48670"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actividad20]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Plantilla" mc="Standard.Class" uid="59852be7-0bab-4ad4-ae24-a8a307c0a54e"/>
+        <COMPID name="Encargado" mc="Standard.Class" uid="58c6c00b-502d-4d33-8f0b-64fad75cc113"/>
+        <COMPID name="Limpiador" mc="Standard.Class" uid="010e1fb7-3a03-4f83-a980-805c30433b92"/>
+        <COMPID name="Administrativo" mc="Standard.Class" uid="9b760b11-1605-484e-8ea6-2483f4a6e669"/>
+        <COMPID name="Comercial" mc="Standard.Class" uid="8db569a2-5c7b-4b06-88ce-a908bd0dad25"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="7d35b4d8-e11f-449b-af7d-66aff0cc63fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="actividad20 Class diagram" mc="Standard.ClassDiagram" uid="877a1a95-d21c-4990-b1c0-51a0bd6ade2f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

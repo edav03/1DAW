@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="awt" version="4">
+  <OBJECT>
+    <ID name="awt" mc="Standard.Package" uid="0da54423-f863-407b-92a5-23acc64678e1"/>
+    <PID name="java" mc="Standard.Package" uid="1a3ddf06-cf1d-4ac7-8e7e-197877ab6840"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[awt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SystemColor" mc="Standard.Class" uid="538ccfe7-e91c-49af-8af0-e8a26e611142"/>
+        <COMPID name="BorderLayout" mc="Standard.Class" uid="b4d1c98b-c538-4e53-b768-1df826df9609"/>
+        <COMPID name="event" mc="Standard.Package" uid="081530d0-000d-4faa-8dac-c3ae6c27b59d"/>
+        <COMPID name="TextArea" mc="Standard.Class" uid="4acf9135-19eb-4852-9d8e-743ce8b4f280"/>
+        <COMPID name="Font" mc="Standard.Class" uid="12e46b87-2216-4d5f-a90d-54534c873c29"/>
+        <COMPID name="Dimension" mc="Standard.Class" uid="ca5220ae-dae2-4017-bf0b-dea4a7e7f2f9"/>
+        <COMPID name="Color" mc="Standard.Class" uid="73f1cc8b-2354-4ddd-9e44-aefc083a3622"/>
+        <COMPID name="EventQueue" mc="Standard.Class" uid="b0332418-186a-4c95-8609-106794476791"/>
+        <COMPID name="Toolkit" mc="Standard.Class" uid="0233dbb2-2137-40b6-ac20-de49ef07e886"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="5e1ec300-0582-41ed-8211-58146c828f09"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Definition">
+              <FOREIGNID name="JavaExtern" mc="Infrastructure.TagType" uid="003800a8-0000-0197-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
