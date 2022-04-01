@@ -9,7 +9,7 @@ public class ejercicio_3 {
             double array[] = new double[5];
 
             for(int i = 0; i < array.length; i++){
-                System.out.print("Vector[" + i + "] = ");
+                System.out.print("Vector[" + (i + 1) + "] = ");
                 array[i] = sc.nextDouble();
             }
         } catch (InputMismatchException ex) {

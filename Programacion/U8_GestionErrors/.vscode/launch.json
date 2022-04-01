@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ejercicio_6",
+            "request": "launch",
+            "mainClass": "ejercicio_6",
+            "projectName": "U8_GestionErrors_cc34f386"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_4",
+            "request": "launch",
+            "mainClass": "ejercicio_4",
+            "projectName": "U8_GestionErrors_cc34f386"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_5",
+            "request": "launch",
+            "mainClass": "ejercicio_5",
+            "projectName": "U8_GestionErrors_cc34f386"
+        },
+        {
+            "type": "java",
             "name": "Launch ejercicio_7",
             "request": "launch",
             "mainClass": "ejercicio_7",

@@ -6,7 +6,7 @@ public class ejercicio1{
         Scanner sc = new Scanner(System.in);
 
         try{
-            System.out.println("Introduce un numero entero:");
+            System.out.print("Introduce un numero entero:");
             int n = sc.nextInt();
 
             System.out.println("Valor introducido = " + n);

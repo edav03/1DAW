@@ -22,15 +22,15 @@ public class ejercicio_5 {
         }
     }
 
-    static void imprimePositivo(int p) throws ExcepcionP{
+    static void imprimePositivo(int p) throws ExcepcionN{
         if(p < 0){
-            throw new ExcepcionP(p);
+            throw new ExcepcionN(p);
         }
     }
 
-    static void imprimeNegativo(int n) throws ExcepcionN{
+    static void imprimeNegativo(int n) throws ExcepcionP{
         if(n >= 0){
-            throw new ExcepcionN(n);
+            throw new ExcepcionP(n);
         }
     }
 }

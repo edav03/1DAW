@@ -25,10 +25,10 @@ public class ejercicio_4 {
             }
         }
         catch (InputMismatchException ex) {
-            System.out.println("Valor no valido");
+            System.out.println("Valor no valido INPUT MISMATCH");
         }
         catch(IndexOutOfBoundsException be){
-            System.out.println("Valor no valido");
+            System.out.println("Valor no valido INDEX OUT OF BOUNDS");
         }
     }
 }
