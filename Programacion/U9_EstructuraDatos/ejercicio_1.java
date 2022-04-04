@@ -6,7 +6,7 @@ public class ejercicio_1{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        ArrayList names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<String>();
 
         names.add("Isabel");
         names.add("Jaume");
