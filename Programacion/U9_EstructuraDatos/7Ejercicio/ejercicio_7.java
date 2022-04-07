@@ -3,7 +3,7 @@ import java.util.Iterator;
 
 public class ejercicio_7 {
     public static void main(String[] args){
-        ArrayList list = new ArrayList();
+        ArrayList<moneda> list = new ArrayList<moneda>();
 
         for(int i = 0; i < 6; i++){
             list.add(new moneda());
