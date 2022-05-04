@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class ejercicio_8 {
     public static void main(String[] args){
-        ArrayList<carta12> list = new ArrayList<carta12>(10);
+        ArrayList<carta> list = new ArrayList<carta>(10);
         Random rand = new Random();
         String[] palo = new String[4];
         palo[0] = "Oros";
@@ -20,8 +20,8 @@ public class ejercicio_8 {
             list.add(new carta(r, palo[p]));
         }
 
-        for(Iterator<carta12> it = list.iterator(); it.hasNext();){
-            carta12 p = (carta12)it.next();
+        for(Iterator<carta> it = list.iterator(); it.hasNext();){
+            carta p = (carta)it.next();
             System.out.println(p.toString());
         }
     }

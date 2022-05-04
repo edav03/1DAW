@@ -4,13 +4,15 @@ import java.util.ArrayList;
 
 public class carta12 {
 
-    private String valor;
+    private String valor = setValor();
     private String palo = setPalo();
 
-    Random rand = new Random();
-    HashMap<String, Integer> briscaValor = new HashMap<String, Integer>();
+    
+    
+    // HashMap<String, Integer> briscaValor = new HashMap<String, Integer>();
     
     public String setPalo(){
+        Random rand = new Random();
         String[] palo = new String[4];
         palo[0] = "Oros";
         palo[1] = "Copas";
@@ -23,22 +25,27 @@ public class carta12 {
     }
 
     public String setValor(){
-        briscaValor.put("as", 11);
-        briscaValor.put("2", 0);
-        briscaValor.put("tres", 10);
-        briscaValor.put("4", 0);
-        briscaValor.put("5", 0);
-        briscaValor.put("6", 0);
-        briscaValor.put("7", 0);
-        briscaValor.put("8", 0);
-        briscaValor.put("9", 0);
-        briscaValor.put("sota", 2);
-        briscaValor.put("caballo", 3);
-        briscaValor.put("rey", 4);
+        ArrayList<String> cartas = new ArrayList<String>();
+        Random rand = new Random();
+        cartas.add("as");
+        cartas.add("2");
+        cartas.add("tres");
+        cartas.add("4");
+        cartas.add("5");
+        cartas.add("6");
+        cartas.add("7");
+        cartas.add("8");
+        cartas.add("9");
+        cartas.add("sota");
+        cartas.add("caballo");
+        cartas.add("rey");
 
         int r = rand.nextInt(12);
-        String value = (new ArrayList<String> (briscaValor.values())).get(r);
         
-        return "" + briscaValor.keySet();
+        return cartas.get(r);
+    }
+
+    public String getCarta(){
+        return valor + " de " + palo;
     }
 }
