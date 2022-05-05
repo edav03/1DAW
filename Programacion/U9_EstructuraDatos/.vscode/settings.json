@@ -1,8 +1,12 @@
 {
     "java.project.sourcePaths": [
-        "8Ejercicio",
-        "7Ejercicio",
-        "12Ejercicio",
-        ""
+        ".",
+        "1_Ejercicio",
+        "2_Ejercicio",
+        "3_Ejercicio",
+        "7_Ejercicio",
+        "8_Ejercicio",
+        "12_Ejercicio",
+        "9_Ejercicio"
     ]
 }

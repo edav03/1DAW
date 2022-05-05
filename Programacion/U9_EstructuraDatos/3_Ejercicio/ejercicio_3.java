@@ -16,9 +16,11 @@ public class ejercicio_3 {
         
         Collections.sort(lista);
 
-        System.out.println("Si los ordenamos: ");
-        for(Iterator it = lista.iterator(); it.hasNext();){
+        System.out.println("\nSi los ordenamos: ");
+        for(Iterator<Integer> it = lista.iterator(); it.hasNext();){
             System.out.print(it.next() + ", ");
         }
+
+        sc.close();
     }
 }

@@ -15,8 +15,10 @@ public class ejercicio_1{
         names.add("Alejandro");
         names.add("David");
 
-        for(Iterator it = names.iterator(); it.hasNext();){
+        for(Iterator<String> it = names.iterator(); it.hasNext();){
             System.out.println(it.next());
         }
+
+        sc.close();
     }
 }

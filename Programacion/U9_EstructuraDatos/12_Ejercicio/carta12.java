@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.HashMap;
 import java.util.ArrayList;
 
 public class carta12 {
@@ -7,10 +6,6 @@ public class carta12 {
     private String valor = setValor();
     private String palo = setPalo();
 
-    
-    
-    // HashMap<String, Integer> briscaValor = new HashMap<String, Integer>();
-    
     public String setPalo(){
         Random rand = new Random();
         String[] palo = new String[4];
@@ -43,6 +38,14 @@ public class carta12 {
         int r = rand.nextInt(12);
         
         return cartas.get(r);
+    }
+
+    public String getValor(){
+        return valor;
+    }
+
+    public String getPalo(){
+        return palo;
     }
 
     public String getCarta(){
