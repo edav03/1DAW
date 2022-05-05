@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title>Formulari</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/formulario_estilos.css">
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="form-group">
+
+        <a href="index.html"><button type="button" class="btn btn-primary">Pagina Principal</button></a>
+
+        <a href="carrousel.html"><button type="button" class="btn btn-primary">Informacion</button></a>
+
+        <a href="comparaciones.html"><button type="button" class="btn btn-primary">Comparaciones</button></a>
+
+        <button type="button" class="btn btn-warning" disabled="disabled">Próximamente...</button>
+
+    </div>
+    <h1>Formulario</h1>
+
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre">
+      </div>
+      <div class="form-group">
+          <label for="clave">Apellidos:</label>
+          <input type="password" class="form-control" id="clave" name="clave">
+      </div>
+      <div class="form-group">
+
+          <label for="dirección">Dirección:</label>
+          <input type="direction" class="form-control" id="dirección" name="dirección">
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label for="text">Sexo:&nbsp&nbsp<label>
+          <input class="form-check-input" type="radio" value="" id="radio1" name="grupo1">
+          <label class="form-check-label" for="radio1">
+             Mujer
+          </label>
+      </div>
+      <div class="form-check form-check-inline">
+           <input class="form-check-input" type="radio" value="" id="radio2" name="grupo2">
+           <label class="form-check-label" for="radio2">
+             Hombre
+           </label>
+     </div>
+
+<br>
+      <div class="form-group">
+      <label for="text">Eres mayor de edad?</label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input"type="checkbox" value="" id="checkbox1" name="checkbox1">
+            <label class="form-check-label" for="checkbox1">
+              Si
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox2" name="checkbox2">
+            <label class="form-check-label" for="checkbox2">
+             No
+            </label>
+        </div>
+
+        <br>        <div class="form-group">
+         <label for="comentarios">Observaciones:</label>
+         <textarea class="form-control" rows="5" id="comentarios" name="comentarios"></textarea>
+       </div>
+       <button type="submit" class="btn btn-default">Enviar</button>
+ </form>
+ <footer>
+   Isabel, Edison, Jaume, Raul
+   <br>
+   Copyright 2022
+ </footer>
+  </div>
+  </body>
+  </html>
