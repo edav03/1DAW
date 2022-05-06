@@ -9,7 +9,7 @@ public class ejercicio_4 {
         ArrayList<String> lista = new ArrayList<String>(10);
 
         System.out.println("Intoduce 10 palabras : ");
-        for(int i = 0; i < 11; i++){
+        for(int i = 0; i < 10; i++){
             System.out.print((i + 1) + ": ");
             String a = sc.nextLine();
             lista.add(a);

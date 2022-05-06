@@ -8,8 +8,8 @@ public class ejercicio_3 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> lista = new ArrayList<Integer>(10);
 
-        for(int i = 0; i < 11; i++){
-            System.out.println("Introduce un numero: ");
+        for(int i = 0; i < 10; i++){
+            System.out.print("Introduce un numero: ");
             int a = sc.nextInt();
             lista.add(a);
         }
