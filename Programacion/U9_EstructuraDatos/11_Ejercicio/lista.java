@@ -5,35 +5,35 @@ public class lista {
 
     private String rand_words = setWords();
 
-    ArrayList<String> lista = new ArrayList<String>();
-
     public String setWords(){
+        ArrayList<String> col = new ArrayList<String>();
+
         Random rand = new Random();
 
-        lista.add("tenedor");
-        lista.add("agua");
-        lista.add("raton");
-        lista.add("pantalla");
-        lista.add("botella");
-        lista.add("arbol");
-        lista.add("flor");
-        lista.add("ventana");
-        lista.add("nube");
-        lista.add("edificio");
-        lista.add("carton");
-        lista.add("lapiz");
-        lista.add("luz");
-        lista.add("borrador");
-        lista.add("colgante");
-        lista.add("puerta");
-        lista.add("sillon");
-        lista.add("teclado");
-        lista.add("enchufe");
-        lista.add("pegatin");
+        col.add("tenedor");
+        col.add("agua");
+        col.add("raton");
+        col.add("pantalla");
+        col.add("botella");
+        col.add("arbol");
+        col.add("flor");
+        col.add("ventana");
+        col.add("nube");
+        col.add("edificio");
+        col.add("carton");
+        col.add("lapiz");
+        col.add("luz");
+        col.add("borrador");
+        col.add("colgante");
+        col.add("puerta");
+        col.add("sillon");
+        col.add("teclado");
+        col.add("enchufe");
+        col.add("pegatina");
 
         int r = rand.nextInt(21);
 
-        return lista.get(r);
+        return col.get(r);
     }
 
     public String getWords(){

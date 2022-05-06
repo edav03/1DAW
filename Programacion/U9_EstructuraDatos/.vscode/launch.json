@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_1",
+            "request": "launch",
+            "mainClass": "ejercicio_1",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_10",
+            "request": "launch",
+            "mainClass": "ejercicio_10",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_11",
+            "request": "launch",
+            "mainClass": "ejercicio_11",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_12",
+            "request": "launch",
+            "mainClass": "ejercicio_12",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_2",
+            "request": "launch",
+            "mainClass": "ejercicio_2",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_3",
+            "request": "launch",
+            "mainClass": "ejercicio_3",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_4",
+            "request": "launch",
+            "mainClass": "ejercicio_4",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_7",
+            "request": "launch",
+            "mainClass": "ejercicio_7",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_8",
+            "request": "launch",
+            "mainClass": "ejercicio_8",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio_9",
+            "request": "launch",
+            "mainClass": "ejercicio_9",
+            "projectName": "U9_EstructuraDatos_f42f459a"
+        }
+    ]
+}

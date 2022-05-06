@@ -9,7 +9,8 @@
         "12_Ejercicio",
         "9_Ejercicio",
         "10_Ejercicio",
-        "11_Ejercicio"
+        "11_Ejercicio",
+        "4_Ejercicio"
     ],
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m"
 }

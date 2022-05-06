@@ -7,6 +7,7 @@ public class ejercicio_11 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         ArrayList<lista> words = new ArrayList<lista>();
+        int count = 0;
 
         HashMap<String, String> dicc = new HashMap<String, String>();
         dicc.put("tenedor", "fork");
@@ -36,12 +37,21 @@ public class ejercicio_11 {
 
         for(Iterator<lista> it = words.iterator(); it.hasNext();){
             lista w = (lista)it.next();
+
+            String wor = w.getWords();
+            String result = dicc.get(wor);
+
+            System.out.print("Palabra: " + wor + "\nTraduccion: ");           
+            String trad = sc.nextLine();
+
+            if(trad.equals(result) == true){
+                count += 1;
+            }
+
+            System.out.println("");
         }
 
-        System.out.print("Introduce palabra en español: ");
-        String word = sc.nextLine();
-
-        System.out.println("Traduccion ingles: " + dicc.get(word));
+        System.out.println("Palabras acertadas: " + count + "/5");
 
         sc.close();
         
