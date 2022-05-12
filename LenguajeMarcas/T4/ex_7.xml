@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+  <bicicleta>
+    <velocidad><![CDATA["<100km/h"]]>
+    </velocidad>
+  </bicicleta>
+  <patinete >
+    <velocidadMax><![CDATA["50 km/h"]]>
+    </velocidadMax>
+  </patinete>
+</mediosDeTransporte>
