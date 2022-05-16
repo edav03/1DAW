@@ -36,6 +36,8 @@ public class interfaz_nif extends javax.swing.JFrame {
             e.printStackTrace();
         }
         nif = new JFormattedTextField(maskDNI);
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -46,13 +48,29 @@ public class interfaz_nif extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setText("Resultado");
+
+        jButton1.setText("jButton1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(203, 203, 203)
-                .addComponent(nif, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(203, 203, 203)
+                        .addComponent(nif, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(256, 256, 256)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton1)
+                            .addComponent(jLabel1))))
                 .addContainerGap(200, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -60,7 +78,11 @@ public class interfaz_nif extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(63, 63, 63)
                 .addComponent(nif, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(343, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jButton1)
+                .addGap(32, 32, 32)
+                .addComponent(jLabel1)
+                .addContainerGap(251, Short.MAX_VALUE))
         );
 
         pack();
@@ -69,10 +91,99 @@ public class interfaz_nif extends javax.swing.JFrame {
     private void nifActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nifActionPerformed
         // TODO add your handling code here:
         
+    }//GEN-LAST:event_nifActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
         String full_nif = new String(nif.getText());
         
-        char letra = full_nif.charAt(full_nif.length() - 1);
-    }//GEN-LAST:event_nifActionPerformed
+        char letra_result = 'a';
+
+        int num_nif = Integer.parseInt(full_nif.substring(0, 7));
+        char letra_nif = full_nif.charAt(full_nif.length()-1);
+        
+        
+        int num_result = num_nif % 23;
+        
+        switch(num_result){
+            case 0:
+                letra_result = 'T';
+            break;
+            case 1:
+                letra_result = 'R';
+            break;
+            case 2:
+                letra_result = 'W';
+            break;
+            case 3:
+                letra_result = 'A';
+            break;
+            case 4:
+                letra_result = 'G';
+            break;
+            case 5:
+                letra_result = 'M';
+            break;
+            case 6:
+                letra_result = 'Y';
+            break;
+            case 7:
+                letra_result = 'F';
+            break;
+            case 8:
+                letra_result = 'P';
+            break;
+            case 9:
+                letra_result = 'D';
+            break;
+            case 10:
+                letra_result = 'X';
+            break;
+            case 11:
+                letra_result = 'B';
+            break;
+            case 12:
+                letra_result = 'N';
+            break;
+            case 13:
+                letra_result = 'J';
+            break;
+            case 14:
+                letra_result = 'Z';
+            break;
+            case 15:
+                letra_result = 'S';
+            break;
+            case 16:
+                letra_result = 'Q';
+            break;
+            case 17:
+                letra_result = 'V';
+            break;
+            case 18:
+                letra_result = 'H';
+            break;
+            case 19:
+                letra_result = 'L';
+            break;
+            case 20:
+                letra_result = 'C';
+            break;
+            case 21:
+                letra_result = 'K';
+            break;
+            case 22:
+                letra_result = 'E';
+            break;    
+        }
+        
+        if(letra_result == letra_nif){
+                jLabel1.setText("NIF correcto");
+        }else{
+            jLabel1.setText("NIF incorrecto");
+        }
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -110,6 +221,8 @@ public class interfaz_nif extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JFormattedTextField nif;
     // End of variables declaration//GEN-END:variables
 }
