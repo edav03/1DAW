@@ -21,5 +21,14 @@ public class ejer_a3 {
         System.out.println("Se ha podido renombrar FOTOS? " + resFoto);
         System.out.println("Se ha podido renombrar LIBROS? " + resLibro);
 
+        renombrarArch(destinoFoto);
+    }
+
+    public static void renombrarArch(File f){
+        
+        for(int i = 0; i < f.length(); i++){
+            f.listFiles();
+            f.getName();
+        }
     }
 }
