@@ -1,6 +1,7 @@
 package ejer_a;
 import java.util.Scanner;
 import java.io.File;
+import java.lang.ArrayIndexOutOfBoundsException;
 
 public class caso_pracA {
     public static void main(String[] args){
@@ -12,13 +13,13 @@ public class caso_pracA {
         command[1] = "";
         command[2] = "";
 
+        // Añadir un try i catch excepcion
         System.out.print("Commando: ");
         fullLinea = sc.nextLine();
 
         command = fullLinea.split("\\s+");
 
-        // Añadir un try i catch excepcion
-        miniTerminal(f, command[0], command[1], command[2]);
+            miniTerminal(f, command[0], command[1], command[2]);
 
         sc.close();
     }
