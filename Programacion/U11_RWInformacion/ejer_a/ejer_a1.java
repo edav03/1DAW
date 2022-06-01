@@ -1,4 +1,3 @@
-package ejer_a;
 import java.util.Scanner;
 import java.io.File;
 

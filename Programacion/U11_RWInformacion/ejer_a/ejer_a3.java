@@ -1,4 +1,3 @@
-package ejer_a;
 import java.io.File;
 
 public class ejer_a3 {
