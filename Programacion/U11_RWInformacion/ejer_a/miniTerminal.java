@@ -22,6 +22,7 @@ public class miniTerminal {
 
             terminalCommands();
         }
+        sc.close();
     }
 
     public void terminalCommands() {
@@ -33,7 +34,6 @@ public class miniTerminal {
             case "cd":
 
                 if (command.get(1).equals("..")) {
-                    // String newPath = f.getAbsolutePath().replace(f.getName(), "");
 
                     this.f = new File(f.getAbsolutePath().replace(f.getName(), ""));
 
