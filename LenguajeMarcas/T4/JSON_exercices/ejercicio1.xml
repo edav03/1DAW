@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+  <!ELEMENT personas (ejemplo*)>
+  <!ELEMENT ejemplo (nombre*, altura*, peso*, pasatiempos*, soltero*, direccion*)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT altura (#PCDATA)>
+  <!ELEMENT peso (#PCDATA)>
+  <!ELEMENT pasatiempos EMPTY>
+  <!ATTLIST pasatiempos
+     comics CDATA #IMPLIED
+     baloncesto CDATA #IMPLIED
+     gaming CDATA #IMPLIED
+     Programacion CDATA #IMPLIED
+     Senderismo CDATA #IMPLIED
+     >
+  <!ELEMENT soltero (#PCDATA)>
+  <!ELEMENT direccion EMPTY>
+  <!ATTLIST direccion
+    calle CDATA #REQUIRED
+    numero CDATA #REQUIRED
+    pais CDATA #REQUIRED
+    >
+]>
+
+<personas>
+
+  <ejemplo>
+    <nombre>Juan Pérez Galones</nombre>
+    <altura>1.72</altura>
+    <peso>75</peso>
+    <pasatiempos comics="" baloncesto="" gaming=""/>
+    <soltero>true</soltero>
+    <direccion calle="Avenida Soleares" numero="44" pais="Chile"/>
+  </ejemplo>
+  
+  <ejemplo>
+    <nombre>Pedro Motos Sandez</nombre>
+    <altura>1.69</altura>
+    <peso>72</peso>
+    <pasatiempos Programacion="" Senderismo=""/>
+    <soltero>true</soltero>
+    <direccion calle="Torero Pedro Cano" numero="78" pais="Mexico"/>
+  </ejemplo>
+</personas>
