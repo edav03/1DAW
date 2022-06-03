@@ -19,6 +19,7 @@ public class ejer_b4 {
 
         System.out.print("Nombres a generar: ");
         int n = sc.nextInt();
+        sc.close();
     
         System.out.print("Archivo donde añadirlo: ");
         String arch = sc.next();
@@ -42,6 +43,10 @@ public class ejer_b4 {
             while (sc_destino.hasNext()) {
                 destino.add(sc_destino.nextLine());
             }
+
+            sc_destino.close();
+            sc_nombres.close();
+            sc_apellidos.close();
 
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
