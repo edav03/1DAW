@@ -16,8 +16,8 @@ public class ejer_b3 {
         String[] path = sc.nextLine().split(" ");
         sc.close();
 
-        File f1 = new File("documentos/" + path[0]);
-        File f2 = new File("documentos/" + path[1]);
+        File f1 = new File("ejer_b/documentos/" + path[0]);
+        File f2 = new File("ejer_b/documentos/" + path[1]);
         f2.createNewFile();
 
         try {

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 public class ejer_b1 {
     public static void main(String[] args) {
         try {
-            File f = new File("documentos/numeros.txt");
+            File f = new File("ejer_b/documentos/numeros.txt");
             Scanner sc = new Scanner(f);
             int max = 0;
             int min = 99999999;
@@ -20,11 +20,12 @@ public class ejer_b1 {
                     min = valor;
                 }
 
-                sc.close();
 
             }
 
             System.out.println("Max = " + max + "\nMin = " + min);
+
+            sc.close();
 
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
