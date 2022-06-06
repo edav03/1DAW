@@ -19,7 +19,7 @@ public class ejer_b4 {
 
         System.out.print("Nombres a generar: ");
         int n = sc.nextInt();
-        sc.close();
+        // sc.close();
     
         System.out.print("Archivo donde añadirlo: ");
         String arch = sc.next();

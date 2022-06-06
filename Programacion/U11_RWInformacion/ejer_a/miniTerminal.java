@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class miniTerminal {
 
-    private String user = "edi";
+    private String user = "compipaul";
     private File f = new File("/home/" + user);
     private List<String> command = new ArrayList<String>();
 
